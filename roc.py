@@ -38,6 +38,9 @@ def plot_pre_roc_curve():
         fpr_values.append(fpr)
         fmr_values.append(fmr)
         fnmr_values.append(fnmr)
+    fmr = np.sum(fmr_values) / len(fmr_values)
+    fnmr = np.sum(fnmr_values) / len(fnmr_values)
+    print(f"Average FMR: {fmr:.2f} | Average FNMR: {fnmr:.2f}")
 
     # Plot ROC Curve
     plt.figure(figsize=(8, 6))
@@ -50,3 +53,4 @@ def plot_pre_roc_curve():
     plt.grid(True)
     plt.legend()
     plt.show()
+
