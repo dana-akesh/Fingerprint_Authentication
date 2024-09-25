@@ -5,7 +5,6 @@
 ## Table of Contents:
 - [Description](#description)
 - [Dataset](#dataset)
-- [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Algorithm](#algorithm)
@@ -32,11 +31,6 @@ The ROC curve is also plotted for further analysis.
     <img src="https://github.com/user-attachments/assets/d77fd510-249b-467f-b214-c39904a6d44c" width="150">
     <img src="https://github.com/user-attachments/assets/a4bb1eb5-b7a2-44e8-8478-3283d1de7dfa" width="150">
 </div>
-
-## Features:
-- Euclidean distance algorithm is used to compare the fingerprints.
-- The project uses the ROC curve to evaluate the performance of the model.
-- 
 
 ## Technologies:
 - Python -version 3.12.3
