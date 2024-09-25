@@ -14,9 +14,17 @@
 
 
 ## Description:
-This project focuses on fingerprint template matching, leveraging Euclidian Distance as the similarity measure with a dynamic threshold. The project explores different thresholding techniques such as mean and variance and provides key biometric performance metrics like FMR, FNMR, and EER. The ROC curve is also plotted for further analysis.
+This project focuses on fingerprint template matching, leveraging Euclidian Distance as the similarity measure with a dynamic threshold.
+The project explores different thresholding techniques such as mean and variance and provides key biometric performance metrics like FMR, FNMR, and EER. 
+The ROC curve is also plotted for further analysis.
+
 ## Dataset:
-A dataset of fingerprint images is used in this project. The dataset includes multiple fingerprint templates for comparison and matching purposes. [Add details about the source of the dataset or any preprocessing steps if necessary.]
+- Source: Kaggle <a href="https://www.kaggle.com/datasets/ruizgara/socofing"> SOCOFing dataset </a>.
+- Content: 6,000 fingerprint images from 600 African individuals. 
+- Labels: Includes gender, hand, and finger designation. 
+- Alterations: Three levels: obliteration, central rotation, and z-cut. 
+- Usage in Project: Randomly selected altered fingerprints will be used, and the data is split into two types of users: hackers and real users.
+
 
 ## Features:
 - Euclidean distance algorithm is used to compare the fingerprints.
@@ -24,9 +32,9 @@ A dataset of fingerprint images is used in this project. The dataset includes mu
 - 
 
 ## Technologies:
-- Python version 3.12.3
-- OpenCV version 4.9.0.80
-- Numpy version 1.26.4
+- Python -version 3.12.3
+- OpenCV -version 4.9.0.80
+- Numpy -version 1.26.4
 
 ## Installation:
 - Clone the repository
@@ -49,6 +57,7 @@ python roc.py
 
 ## Algorithm and Thresholding:
 - The algorithm used in this project is the Euclidean distance algorithm.
+- 
 
 ## Output:
 
