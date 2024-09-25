@@ -78,7 +78,7 @@ python roc.py
 ## Threshold:
 - Purpose: Dynamically calculated to determine if the user is accepted into the system.
    - Mean: If the input photo's score is below the mean of all scores, it is approved.
-   - <img src="https://github.com/user-attachments/assets/63dd40cc-467d-4249-83f2-a90925e6358b" alt="mean formula" width="300">
+     - <img src="https://github.com/user-attachments/assets/63dd40cc-467d-4249-83f2-a90925e6358b" alt="mean formula" width="300">
    - Standard Deviation: If the input photo's score is below the standard deviation, it is approved.
      - <img src="https://github.com/user-attachments/assets/cfc0d4b8-acd2-42ec-b22a-e51f36ea7313" alt="standard deviation formula" width="300">
 
